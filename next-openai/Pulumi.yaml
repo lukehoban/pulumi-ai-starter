@@ -4,7 +4,7 @@ main: infra
 template:
   description: Vercel AI SDK, Next.js, and OpenAI Chat Example
   config:
-    next-openai:openAIKey: 
+    openAIKey: 
       description: OpenAI API Key (https://platform.openai.com/account/api-keys)
       requried: true
       secret: true
