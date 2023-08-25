@@ -1,0 +1,14 @@
+name: next-openai
+runtime: nodejs
+main: infra
+template:
+  description: Vercel AI SDK, Next.js, and OpenAI Chat Example
+  config:
+    next-openai:openAIKey: 
+      description: OpenAI API Key (https://platform.openai.com/account/api-keys)
+      requried: true
+      secret: true
+    aws:region:
+      description: The AWS region to deploy into
+      requried: true
+      default: us-east-1
