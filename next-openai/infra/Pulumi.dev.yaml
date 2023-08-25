@@ -1,5 +1,0 @@
-config:
-  aws:region: us-west-2
-  cloud:provider: aws
-  nextjsSite:openAIKey:
-    secure: AAABAIYK5WeWxaCElHHV39iMqh8GHzAa4d8K9PVTgJrVIzgsaW8YXxJLvEyzot1A7KV9p/NzaYAGyKKoejM3rH2IFnjp89f0H8ttyLEmMfyiJMY=
